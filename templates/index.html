@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 {% extends 'base.html' %}
 {% load static %}
-
 {% block title %}Sensive Blog - Home{% endblock %}
-
 {% block content %}
-
   <main class="site-main">
     <!--================Hero Banner start =================-->  
     <section class="mb-30px">
@@ -19,8 +16,7 @@
         </div>
       </div>
     </section>
-    <!--================Hero Banner end =================-->  
-
+    <!--================Hero Banner end =================-->
     <!--================ Blog slider start =================-->
     <section>
       <div class="container">
@@ -46,7 +42,6 @@
       </div>
     </section>
     <!--================ Blog slider end =================-->
-
     <!--================ Start Blog Post Area =================-->
     <section class="blog-post-area section-margin mt-4">
       <div class="container">
@@ -73,35 +68,31 @@
                 </div>
               </div>
             {% endfor %}
-
-
-
             <div class="row">
               <div class="col-lg-12">
-                  <nav class="blog-pagination justify-content-center d-flex">
-                      <ul class="pagination">
-                          <li class="page-item">
-                              <a href="#" class="page-link" aria-label="Previous">
-                                  <span aria-hidden="true">
-                                      <i class="ti-angle-left"></i>
-                                  </span>
-                              </a>
-                          </li>
-                          <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                          <li class="page-item"><a href="#" class="page-link">2</a></li>
-                          <li class="page-item">
-                              <a href="#" class="page-link" aria-label="Next">
-                                  <span aria-hidden="true">
-                                      <i class="ti-angle-right"></i>
-                                  </span>
-                              </a>
-                          </li>
-                      </ul>
-                  </nav>
+                <nav class="blog-pagination justify-content-center d-flex">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a href="#" class="page-link" aria-label="Previous">
+                        <span aria-hidden="true">
+                          <i class="ti-angle-left"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item">
+                      <a href="#" class="page-link" aria-label="Next">
+                        <span aria-hidden="true">
+                          <i class="ti-angle-right"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>
-
           <!-- Start Blog Post Siddebar -->
           <div class="col-lg-4 sidebar-widgets">
             <div class="widget-wrap">
@@ -115,8 +106,6 @@
                 </div>
                 <button class="bbtns d-block mt-20 w-100">Subcribe</button>
               </div>
-
-
               <div class="single-sidebar-widget post-category-widget">
                 <h4 class="single-sidebar-widget" style="height:200px;">Здесь будет реклама</h4>
               </div>
@@ -128,5 +117,4 @@
     </section>
     <!--================ End Blog Post Area =================-->
   </main>
-
 {% endblock %}
