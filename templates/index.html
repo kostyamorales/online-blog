@@ -57,7 +57,7 @@
                   {% endif %}
                   <ul class="thumb-info" style="max-width: 550px">
                     <li><a href="#"><i class="ti-user"></i>{{post.author}}</a></li>
-                    <li><a href="#"><i class="ti-notepad"></i>{{post.published_at}}</a></li>
+                    <li><a href="#"><i class="ti-notepad"></i>{{post.published_at|date:"M d, Y, P"}}</a></li>
                     <li><a href="#"><i class="ti-themify-favicon"></i>{{post.comments_amount}} Comments</a></li>
                   </ul>
                 </div>
